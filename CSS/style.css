@@ -1,0 +1,254 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 24px;
+     font-weight: 600;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     background: #f0efef;
+     width: 960px;
+     margin: 0 auto;
+     padding: 0;
+     overflow: auto;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+header {
+  background-color: #033048;
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+}
+
+h1 {
+ color: white;
+ float: left;
+ padding: 25px 50px;
+ font-size: 40px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 30px 50px;
+  overflow: hidden;
+  float: right;
+}
+
+li {
+  display: inline;
+}
+
+.topNav {
+  font-size: 24px;
+  font-weight: 600;
+
+}
+li a {
+  color: #f9e42e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+  width: 700px;
+  display: inline-block;
+  float: left;
+}
+
+h3 {
+  float: right;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+main {
+  background: #f0efef;
+  width: 700px;
+  padding: 0;
+  margin: 0;
+  display: block;
+  position: fixed;
+}
+
+img {
+  width: 700px;
+}
+
+article {
+  font-weight: 300;
+  font-size: 24px;
+  width: 700px;
+  float: left;
+}
+
+.blogPhoto1 {
+  float: left;
+}
+
+.blogPhoto2 {
+  float: left;
+}
+
+.readMore:after {
+  content: '>';
+  color: #606161;
+}
+
+.readMore:hover {
+  color: #606161;
+}
+
+.firstcharacter {
+  float: left;
+  color: #606161;
+  font-size: 75px;
+  line-height: 60px; 
+  padding-top: 4px; 
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
+aside {
+  float: right;
+  width: 240px;
+  display: block;
+  clear: all;
+}
+
+.ad {
+  width: 240px;
+  float: right;
+  clear: both;
+}
+
+.categories {
+  font-size: 24px;
+  color: #033048;
+  font-weight: 300;
+  width: 240px;
+  float: right;
+  display: inline-block;
+}
+
+.aboutRelaxr {
+  font-size: 22px;
+  font-weight: 22px
+}
+
+.navRight {
+  width: 240px;
+  float: right;
+}
+
+.readMore {
+  font-size: 24px;
+  font-weight: 600;
+  float: right;
+  display: inline-block;
+}
+
+.signUpNow {
+  background-color: #033048;
+  color: white;
+}
+
+.button {
+  background-color: #033048;
+  border: none;
+  color: white;
+  background: #f9e42e;
+  text-align: center;
+  height: 75px;
+  padding-top: 25px;
+  display: inline-block;
+  width: 960px;
+}
+
+footer {
+  height: 100px;
+  background: #121212;
+  text-align: center;
+}
+
+.Footer {
+  font-weight: 800;
+  font-size: 24px;
+  color: #f9e42e;
+}
+
+.copyright {
+  font-weight: 600;
+  font-size: 9px;
+  color: white;
+  text-align: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
